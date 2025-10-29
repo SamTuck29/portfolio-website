@@ -63,4 +63,4 @@ jobs:
         with:
           app-name: 'wa-ncu-portfolio-website'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.__publishingprofilesecretname__ }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0DD8C78F9AF744DE9F8DFB5F9B44B210 }}
