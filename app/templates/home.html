@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<section class="card resume">
+  <h3>Professional Summary</h3>
+  <p class="indent">Detail-oriented data professional with a strong foundation in problem-solving and a passion for continuous learning. I am skilled in ETL/ELT data pipeline development, systems architecture, machine learning, statistical modeling, and data visualization. With experience in project management, I can effectively lead projects from inception to completion, deliver strategic and actionable insights in a time-efficient manner, and communicate technical information to diverse audiences. Ultimately, I seek to leverage my expertise and passion for data to drive innovation and provide data-driven solutions that add meaningful business value.</p>
+
+  <h3>Technical Skills</h3>
+  <article class="skills">
+    <ul class="indented">
+      <li><strong>Programming</strong> - Proficient understanding of R, Python, C#, HTML, SAS, SQL.</li>
+      <li><strong>Data Engineering</strong> - Skilled in ETL/ELT data pipeline development: Azure Functions, Container Apps, Terraform, PubSub, GitHub, CI/CD Pipelines, REST APIs, Docker, Databases, FastAPI, matplotlib.</li>
+      <li><strong>Machine Learning</strong> - Broad use of ML packages including Scikit-Learn and Pytorch with Pandas leveraging algorithms including: k nearest neighbors, random forests, stochastic gradient descent and more.</li>
+      <li><strong>Web App Development</strong> - Experience creating user-friendly apps with Blazor, RShiny, and React.</li>
+    </u1>
+  </article> 
+
+  <h3>Experience</h3>
+  <article>
+    <strong>Data Platforms Developer | The Waldinger Corporation</strong>
+    <div class="muted">March 2025 - Present</div>
+    <ul>
+      <li><strong>Data Engineering:</strong> Create custom data pipelines that extract paginated data in real-time from external APIs, load to data lakes (Azure Blob Storage) and databases (Snowflake, Postgres, Oracle), and perform transformations that align with the business's needs. Support other teams by making data available through custom Python APIs. Automate, via CI/CD pipelines, code pushes from GitHub to Azure. Establish event-driven architecture via PubSub for C# app data crossover and Snowflake ingestion.</li>
+      <li><strong>Systems Architecture:</strong> Collaborate with a data architect to design a flexible, scalable, reliable data pipeline architecture that is modularized and reproducible using Terraform modules and Python packages. Reduced pipeline creation timeline from months to days.</li>
+    </ul>
+  </article>
+  <article>
+    <strong>Survey Statistician | USDA-NASS</strong>
+    <div class="muted">June 2022 - March 2025</div>
+    <ul>
+      <li><strong>Machine Learning:</strong> Created, trained, and tested ML models using Sci-kit Learn in Python and ML.NET in C#. Models used NLP and classification to simplify tasks in an internal application.</li>
+      <li><strong>Web Application Development:</strong> Collaborated on the creation of Blazor and RShiny applications. Responsibilities included full stack development, meeting stakeholder requirements, and deploying code with CI/CD pipelines.</li>
+    </ul>
+  </article>
+  <article>
+    <strong>Tutor/Teacher's Assistant for Dr. Andrew Becklin | Drake University</strong>
+    <div class="muted">August 2021 - December 2023</div>
+    <ul>
+      <li><strong>Teaching:</strong> Coach and teach students in the classroom and during out-of-class office hours and review sessions, covering courses in Mathematics and Computer Science.</li>
+    </ul>
+  </article>
+
+  <h3>Education</h3>
+  <div class="education">
+    <article>
+      <strong>Georgia Institute of Technology</strong>, August 2025 - December 2028
+      <div class="muted">Master's of Science in Computer Science</div>
+    </article>
+    <article>
+      <strong>Drake University</strong>, August 2020 - May 2024
+      <div class="muted">Bachelor's of Science in Mathematics, Computer Science, and Data Analytics</div>
+    </article>
+  </div>
+
+  <h3>Projects</h3>
+  <ul>
+    <li><a href="https://github.com/SamBa61/STAT190/tree/Sam-Tuck3" target="_blank">RShiny Dashboard</a></li>
+    <li><a href="https://github.com/SamTuck29/machine-learning-classification" target="_blank">Machine Learning Classification Project</a></li>
+    <li><a href="https://github.com/SamTuck29/logistic-regression-whitepaper" target="_blank">Logistic Regression Whitepaper</a></li>
+  </ul>
+</section>
+{% endblock %}
